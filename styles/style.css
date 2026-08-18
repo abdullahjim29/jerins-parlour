@@ -6,3 +6,53 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+
+/* shared style */
+.btn-primary{
+    background-color: #F63E7B;
+    padding: 8px 40px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
+
+/* header style */
+
+header{
+    background-color: #fff8f5;
+}
+
+.logo{
+    width: 128px;
+    height: 48px;
+}
+
+.nav-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links > ul > li > a, .nav-links > ul > li{
+    text-decoration: none;
+    list-style: none;
+    color: #474747;
+}
+
+.nav-links > ul > li > button > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links > ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
