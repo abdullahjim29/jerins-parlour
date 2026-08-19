@@ -46,7 +46,7 @@ header{
     color: #474747;
 }
 
-.nav-links > ul > li > button > a{
+a{
     text-decoration: none;
     color: white;
 }
@@ -55,4 +55,27 @@ header{
     display: flex;
     gap: 40px;
     align-items: center;
+}
+
+.hero-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    display: flex;
+}
+
+.hero-content{
+    margin-top: 90px;
+    width: 52%;
+}
+
+.hero-description{
+    width: 50%;
+    margin: 16px 0px;
+    font-size: 14px;
+}
+
+.hero-image img{
+    width: 484px;
+    height: 478px;
 }
