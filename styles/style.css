@@ -130,7 +130,46 @@ a{
     border-radius: 6px;
 }
 
-.service > p{
+.service > p, .customer-description{
     color: #00000085;
     font-weight: 400;
+}
+
+/* happy customer section styles */
+
+.happy-customer-section{
+    background-color: #fff8f5;
+}
+
+.happy-customer-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    padding: 120px 0px;
+}
+
+
+
+.customer-image img{
+    width: 580px;
+    height: 381px;
+}
+
+.customer-content-title{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.customer-description{
+    margin-top: 30px;
+    font-size: 14px;
+    width: 78%;
+}
+
+.customer-count-container{
+    margin-top: 80px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
 }
