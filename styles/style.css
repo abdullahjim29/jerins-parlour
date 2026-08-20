@@ -17,6 +17,10 @@
     border-radius: 6px;
 }
 
+.text-primary{
+    color: #F63E7B;
+}
+
 /* header style */
 
 header{
@@ -78,4 +82,55 @@ a{
 .hero-image img{
     width: 484px;
     height: 478px;
+}
+
+
+/* services section styles */
+.services-section{
+    max-width: 1170px;
+    margin: 80px auto;
+}
+
+.service-section-title{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.services-container{
+    display: flex;
+    gap: 60px;
+    margin: 70px auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.service-image img{
+    width: 72px;
+    height: 72px;
+}
+
+.service-title{
+    color:#111430;
+    font-weight: semibold;
+}
+
+.service > h5{
+    margin: 10px;
+}
+
+.service{
+    padding: 24px;
+}
+
+.special-service{
+    border: 2px solid white;
+    box-shadow: 0 0 50px rgba(34, 34, 34, 0.164);
+    border-radius: 6px;
+}
+
+.service > p{
+    color: #00000085;
+    font-weight: 400;
 }
